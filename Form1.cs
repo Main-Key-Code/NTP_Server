@@ -109,8 +109,6 @@ namespace Working_With_NTP_Server
             System.Threading.Thread.Sleep(UpdateFreq);
         }
 
-
-
         [StructLayout(LayoutKind.Sequential)]
         public struct SYSTEMTIME
         {
